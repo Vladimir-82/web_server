@@ -1,0 +1,14 @@
+"""Константы."""
+
+FORBIDDEN = 403
+OK = 200
+NOT_FOUND = 404
+METHOD_NOT_ALLOWED = 405
+
+
+RESPONSE_HEADERS = {
+    OK: b'HTTP/1.1 200 OK',
+    FORBIDDEN: b'HTTP/1.1 403 Forbidden',
+    NOT_FOUND: b'HTTP/1.1 404 Not Found',
+    METHOD_NOT_ALLOWED: b'HTTP/1.1 405 Method Not Allowed'
+}

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web-server"
+version = "0.1.0"
+description = ""
+authors = ["ukastsiukevich <grun_gespenst@tut.by>"]
+readme = "README.md"
+packages = [{include = "web_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mypy = "^1.13.0"
+flake8 = "^7.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
